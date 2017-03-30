@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}"; 
+
+$headerColor: #484780;
+
+h1, h2, h3, h4, h5, h6{
+    color: $headerColor;
+}
+
+.logo{
+    width: 60%;
+    margin: 0 20% 10%;
+}
+
+.description{
+    text-align: center
+}

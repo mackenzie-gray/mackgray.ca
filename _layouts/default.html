@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ site.title | default: site.github.repository_name }}</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
@@ -16,6 +17,17 @@
       <header>
         <img class="logo" src="assets/img/mg_poly.png" />
         <p class="description">{{ site.description }}</p>
+
+        <div class="details">
+          <hr/>
+          <div class="location">{{ site.location }}</div>
+          <div class="email">{{ site.email }}</div>
+          <div class="socials">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
       </header>
       <section>
 
@@ -26,7 +38,7 @@
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-
+    <script src="https://use.fontawesome.com/b6f622dd5d.js"></script>
 
   {% if site.google_analytics %}
     <script>

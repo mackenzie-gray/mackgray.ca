@@ -10,8 +10,10 @@ Typed.new(".header-text", {
 	contentType: 'html',
     showCursor: false,
     loop: true,
-    typeSpeed: 25,
-    backDelay: 2000
+    typeSpeed: 40,
+    backSpeed: 50,
+    backDelay: 2000,
+    fadeOut: true
 });
 
 var feed = new Instafeed({
@@ -19,8 +21,7 @@ var feed = new Instafeed({
     userId: '26350158',
     clientId: 'b03570e1f1f1476d92d31ef2212a7acf',
     accessToken: '26350158.b03570e.02f2dfb89c4f437c83fac7914279798a',
-    limit: 6,
-    template: '<a href="{{link}}" target="_blank"><img class="insta-img" src="{{image}}" /></a>'
-
+    limit: 9,
+    template: '<a class="insta-img" href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
 });
 feed.run();

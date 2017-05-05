@@ -220,10 +220,10 @@ h4 { font-weight: 100; color: #7c7c7c; margin-bottom: 0; letter-spacing: 3px; }
 
 .logo { width: 60%; margin: 0 20% 10%; }
 
-.desc-box { display: flex; justify-content: center; align-items: center; margin: auto; padding: 10px; width: 100%; }
+.desc-box { display: flex; justify-content: center; align-items: center; margin: auto; padding: 10px; max-width: 100%; }
 .desc-box .headshot { width: 70px; height: 70px; }
 .desc-box .headshot img { border-radius: 50%; }
-.desc-box .desc-wrap { padding: 0 10px; }
+.desc-box .desc-wrap { margin-left: 10px; }
 .desc-box .desc-wrap .description, .desc-box .desc-wrap .location, .desc-box .desc-wrap .email { font-size: 14px; margin-bottom: 0; }
 
 .socials { width: 100%; text-align: center; padding: 15px 5px; }
@@ -236,5 +236,5 @@ h4 { font-weight: 100; color: #7c7c7c; margin-bottom: 0; letter-spacing: 3px; }
 
 .fa-2x { font-size: 1.5em; }
 
-#instafeed { width: 100%; display: flex; flex-wrap: wrap; position: relative; justify-content: center; }
-#instafeed .insta-img { width: 80px; margin: 0 5px; }
+#instafeed { width: 100%; display: flex; flex-wrap: wrap; position: relative; justify-content: space-between; }
+#instafeed .insta-img { flex-basis: 30%; }

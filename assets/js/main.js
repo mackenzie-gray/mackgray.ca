@@ -1,4 +1,4 @@
-var strings = [
+var typed_strings = [
     "Hi, I'm Mack!", //english
     "Salut, je suis Mack!", //french
     "Hola, soy Mack!", //spanish
@@ -6,7 +6,7 @@ var strings = [
 ]
 
 Typed.new(".header-text", {
-	strings: strings,
+	strings: typed_strings,
 	contentType: 'html',
     showCursor: false,
     loop: true,

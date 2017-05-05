@@ -1,19 +1,19 @@
 var typed_strings = [
-    "Hi, I'm Mack!", //english
-    "Salut, je suis Mack!", //french
-    "Hola, soy Mack!", //spanish
-    "Hallo, ek is Mack!" //afriikans
+    "Hi, ^500 I'm Mack!", //english
+    "Salut, ^250 je suis Mack!", //french
+    "Hola, ^250 soy Mack!", //spanish
+    "Hallo, ^250 ek is Mack!" //afriikans
 ]
 
 Typed.new(".header-text", {
 	strings: typed_strings,
 	contentType: 'html',
-    showCursor: false,
     loop: true,
     typeSpeed: 40,
     backSpeed: 50,
     backDelay: 2000,
-    fadeOut: true
+    cursorChar: null,
+    showCursor: false
 });
 
 var feed = new Instafeed({

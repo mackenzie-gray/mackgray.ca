@@ -216,7 +216,7 @@ body { letter-spacing: 0.4px; font-size: 17px; color: #777; font-family: "Source
 
 h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; color: #333; letter-spacing: 1px; margin-bottom: 10px; font-weight: 600; }
 
-h4 { font-weight: 100; color: #7c7c7c; margin-bottom: 0; letter-spacing: 3px; }
+h4 { font-weight: 100; color: #333; margin-bottom: 10px; letter-spacing: 3px; }
 
 .logo { width: 60%; margin: 0 20% 10%; }
 
